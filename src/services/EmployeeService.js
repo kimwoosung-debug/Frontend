@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EMPLOYEE_API_BASE_URL = "https://api.fastcampus-dragon.net/api/v1/employees";
+const EMPLOYEE_API_BASE_URL = "https://api.imdev-test.net/api/v1/employees";
 
 class EmployeeService {
 
@@ -25,4 +25,6 @@ class EmployeeService {
   }
 }
 
-export default new EmployeeService();
+const employeeService = new EmployeeService();
+
+export default employeeService;
